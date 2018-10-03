@@ -1,0 +1,16 @@
+<table id="table" class="table" >  
+    <thead>  
+        <tr>  
+            <th>Sr.No</th>  
+             <th>Teacher Name</th>
+        </tr>  
+    </thead>  
+     <tbody>  
+          <% AllTeachersDtls.forEach(function (obj) { %>
+                <tr>  
+                    <td>1</td>  
+                    <td><%= obj.TeacherName %></td>
+                </tr>                                   
+             <% }) %>
+     </tbody>
+</table>
